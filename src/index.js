@@ -204,8 +204,14 @@ var pageContent = {
 	}]
 }
 
+// set content of main heading block
+var mainMaining = document.getElementById('main-heading');
+var mainSubheading = document.getElementById('main-subheading');
+mainMaining.innerHTML = pageContent.blocks[0].heading;
+mainSubheading.innerHTML = pageContent.blocks[0].subheading;
 
-  var mainMaining = document.getElementById('main-heading');
-  var mainSubheading = document.getElementById('main-subheading');
-  mainMaining.innerHTML = pageContent.blocks[0].heading;
-  mainSubheading.innerHTML = pageContent.blocks[0].subheading;
+// set content of youtube block
+var video = document.getElementById('video');
+var videoPoster = document.getElementById('videoPoster');
+video.innerHTML = '<iframe class="player" frameborder="0" allowfullscreen="1" title="YouTube video player" width="640" height="390" src="https://www.youtube.com/embed/' + pageContent.blocks[1].videoId + '?rel=0&amp;enablejsapi=1&amp;origin=http%3A%2F%2Fwww.ikea.com&amp;widgetid=1" id="widget2"></iframe>'
+videoPoster.innerHTML = '<img src="./images/' + pageContent.blocks[1].image + '">'
