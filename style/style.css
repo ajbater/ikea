@@ -2,6 +2,8 @@
 
 body {
   font-family: 'Verdana', sans-serif;
+  color: #222;
+  margin: 0;
 }
 
 #content {
@@ -12,13 +14,42 @@ h1 {
   text-transform: uppercase;
 }
 
+p {
+  font-size: .75em;
+  line-height: 2em;
+}
+
+#first-heading, #second-heading {
+  font-size: 2.8em;
+  letter-spacing: 1px;
+  /*font-weight: 450;*/
+}
+
 /*main header block*/
+
+#first-heading {
+  margin-top: 100px;
+}
+
+#first-subheading {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.first-header {
+  width: 90%;
+  margin: auto;
+}
 
 /*youtube block*/
 
 /*second header block*/
 
 /*image grid block*/
+
+#cta {
+  text-transform: uppercase;
+}
 
 /*product grid block*/
 
