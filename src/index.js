@@ -223,3 +223,9 @@ cta.innerHTML = '<a href="' + pageContent.blocks[3].cta.url.gben + '">' + pageCo
 
 // sets content of product grid
 var productHeading = document.getElementById('products-heading');
+productHeading.innerHTML = pageContent.blocks[4].heading;
+setGridContent('product-grid-items', 4);
+
+// sets content of sleep coach block
+setHeaderContent('sleep-coach-heading', 'sleep-coach-subheading', 5);
+setSlidesContent('sleep-coach-carousel', 6);
