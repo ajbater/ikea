@@ -63,6 +63,10 @@ p {
   margin-bottom: 85px;
 }
 
+#cta {
+  margin-top: 120px;
+}
+
 #cta a {
   font-size: 1em;
   text-transform: uppercase;
@@ -77,6 +81,7 @@ p {
 
 #products-heading {
   font-size: 1em;
+  margin-bottom: 80px;
 }
 
 #product-grid-items {
@@ -90,7 +95,29 @@ p {
   font-size: 1em;
 }
 
-/*sleep coach block*/
+/*sleep coach block navigation*/
+
+.navigation-button {
+  background-color: #00619c;
+  border: none;
+  height: 90px;
+  width: 90px;
+  color: white;
+  font-size: 60px;
+  font-weight: lighter;
+}
+
+.prev {
+  border-bottom-right-radius: 10%;
+  border-top-right-radius: 10%;
+}
+
+.next {
+  border-bottom-left-radius: 10%;
+  border-top-left-radius: 10%;
+}
+
+/*sleep coach block slides*/
 
 .sleep-coach-header {
   margin: auto;
