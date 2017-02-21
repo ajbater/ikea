@@ -27,23 +27,19 @@ p {
 
 /*main header block*/
 
-#first-heading {
-  margin-top: 100px;
-}
-
-#first-subheading {
-  margin-top: 50px;
-  margin-bottom: 100px;
-}
-
 .first-header {
   width: 90%;
-  margin: auto;
+  margin: 100px auto;
 }
 
 /*youtube block*/
 
 /*second header block*/
+
+.second-header {
+  width: 85%;
+  margin: 150px auto 85px auto;
+}
 
 /*image grid block*/
 
