@@ -215,3 +215,9 @@ videoPoster.innerHTML = '<img src="./images/' + pageContent.blocks[1].image + '"
 
 // sets content of second heading block
 setHeaderContent('second-heading', 'second-subheading', 2);
+
+// sets content of image grid block
+var cta = document.getElementById('cta');
+cta.innerHTML = '<a href="' + pageContent.blocks[3].cta.url.gben + '">' + pageContent.blocks[3].cta.text + '</a>'
+
+// sets content of product grid
