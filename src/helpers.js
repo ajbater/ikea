@@ -17,6 +17,6 @@ setSlidesContent = function(elementId, blockNumber) {
   targetElement = document.getElementById(elementId);
   var carouselItems = pageContent.blocks[blockNumber].items;
   carouselItems.forEach(function(item) {
-    targetElement.innerHTML += "<div class='slide'><h1 class='carousel-header'>" + item.heading + "</h1><p>" + item.text + "</p><img src='./images/" + item.images[0] + "'><img src='./images/" + item.images[1] + "'></div>";
+    targetElement.innerHTML += '<div class="slide"><div class="sleep-tip-text"><h1 class="carousel-header">' + item.heading + '</h1><p>"' + item.text + '"</p></div><div class="sleep-tip-images"><img src="./images/' + item.images[0] + '"><img src="./images/' + item.images[1] + '"></div></div>';
   })
 }

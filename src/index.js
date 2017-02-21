@@ -209,7 +209,7 @@ setHeaderContent('first-heading', 'first-subheading', 0);
 
 // set content of youtube block
 var video = document.getElementById('video');
-var videoPoster = document.getElementById('videoPoster');
+var videoPoster = document.getElementById('video-poster');
 video.innerHTML = '<iframe class="player" frameborder="0" allowfullscreen="1" title="YouTube video player" width="640" height="390" src="https://www.youtube.com/embed/' + pageContent.blocks[1].videoId + '?rel=0&amp;enablejsapi=1&amp;origin=http%3A%2F%2Fwww.ikea.com&amp;widgetid=1" id="widget2"></iframe>'
 videoPoster.innerHTML = '<img src="./images/' + pageContent.blocks[1].image + '">'
 
