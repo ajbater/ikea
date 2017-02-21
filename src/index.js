@@ -205,10 +205,7 @@ var pageContent = {
 }
 
 // set content of main heading block
-var firstHeading = document.getElementById('first-heading');
-var firstSubheading = document.getElementById('first-subheading');
-firstHeading.innerHTML = pageContent.blocks[0].heading;
-firstSubheading.innerHTML = pageContent.blocks[0].subheading;
+setHeaderContent('first-heading', 'first-subheading', 0);
 
 // set content of youtube block
 var video = document.getElementById('video');
@@ -217,7 +214,4 @@ video.innerHTML = '<iframe class="player" frameborder="0" allowfullscreen="1" ti
 videoPoster.innerHTML = '<img src="./images/' + pageContent.blocks[1].image + '">'
 
 // sets content of second heading block
-var secondHeading = document.getElementById('second-heading');
-var secondSubheading = document.getElementById('second-subheading');
-secondHeading.innerHTML = pageContent.blocks[2].heading;
-secondSubheading.innerHTML = pageContent.blocks[2].subheading;
+setHeaderContent('second-heading', 'second-subheading', 2);
