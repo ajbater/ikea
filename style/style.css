@@ -3,11 +3,13 @@
 body {
   font-family: 'Verdana', sans-serif;
   color: #222;
-  margin: 0;
+  margin: none;
 }
 
 #content {
   text-align: center;
+  width: 90%;
+  margin: auto;
 }
 
 h1 {
@@ -15,11 +17,11 @@ h1 {
 }
 
 p {
-  font-size: .75em;
+  font-size: .8em;
   line-height: 2em;
 }
 
-#first-heading, #second-heading {
+#first-heading, #second-heading, #sleep-coach-heading {
   font-size: 2.8em;
   letter-spacing: 1px;
   /*font-weight: 450;*/
@@ -43,10 +45,47 @@ p {
 
 /*image grid block*/
 
-#cta {
+#image-grid-items p {
+  text-align: left;
+}
+
+#image-grid-items img {
+  width: 100%;
+  height: auto;
+}
+
+.grid-item {
+  margin-bottom: 85px;
+}
+
+#cta a {
+  font-size: 1em;
   text-transform: uppercase;
+  color: #00619c;
 }
 
 /*product grid block*/
 
+.product-grid {
+  margin-top: 150px;
+}
+
+#products-heading {
+  font-size: 1em;
+}
+
+#product-grid-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#product-grid-items p {
+  text-transform: uppercase;
+}
+
 /*sleep coach block*/
+
+.sleep-coach-header {
+  margin-bottom: 50px;
+}
