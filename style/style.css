@@ -112,9 +112,25 @@ p {
   border-top-right-radius: 10%;
 }
 
+#prev-arrow, #next-arrow {
+  width: 100%;
+  height: 100%;
+}
+
+#next-arrow {
+  transform: rotate(180deg);
+}
+
 .next {
   border-bottom-left-radius: 10%;
   border-top-left-radius: 10%;
+}
+
+.social-button {
+  background-color: black;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
 }
 
 /*sleep coach block slides*/
