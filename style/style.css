@@ -1,4 +1,4 @@
-/*general*/
+/* general */
 
 body {
   font-family: 'Verdana', sans-serif;
@@ -26,13 +26,13 @@ p {
   letter-spacing: 1px;
 }
 
-/*main header block*/
+/* main header block */
 
 .first-header {
   margin-top: 50px;
 }
 
-/*youtube block*/
+/* youtube block */
 
 .youtube {
   position: relative;
@@ -65,14 +65,14 @@ p {
   opacity: 1;
 }
 
-/*second header block*/
+/* second header block */
 
 .second-header {
   width: 85%;
   margin: 80px auto 40px auto;
 }
 
-/*image grid block*/
+/* image grid block */
 
 #image-grid-items p {
   text-align: left;
@@ -97,7 +97,7 @@ p {
   color: #00619c;
 }
 
-/*product grid block*/
+/* product grid block */
 
 .product-grid {
   margin-top: 80px;
@@ -126,7 +126,7 @@ p {
   text-transform: uppercase;
 }
 
-/*tips block navigation and social*/
+/* tips block navigation and social */
 
 .navigation-button {
   position: absolute;
@@ -182,7 +182,7 @@ p {
   height: 40px;
 }
 
-/*sleep coach block*/
+/* sleep coach block */
 
 .tips {
   width: 100%;
@@ -223,7 +223,6 @@ p {
 .sleep-tip-text {
   margin: auto;
   margin-bottom: 65px;
-  background-color: white;
   width: 80%
 }
 
@@ -243,4 +242,53 @@ p {
 
 .second-frame.blink {
   opacity: 1;
+}
+
+/* media queries */
+
+@media screen and (min-width: 480px) {
+  /* image grid block */
+
+  #image-grid-items {
+    display: flex;
+    flex: direction: row;
+  }
+
+  .grid-item {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  /* image grid block */
+
+  #product-grid-items .grid-item {
+    width: 22%;
+  }
+
+  #product-grid-items {
+    justify-content: center;
+  }
+
+  #product-grid-items p {
+    text-transform: capitalize;
+    line-height: 1.6em;
+  }
+
+  /* tips block */
+
+  #slide-container {
+    height: 620px;
+  }
+
+
+  .sleep-tip-text {
+    width: 90%
+  }
+
+}
+
+@media screen and (min-width: 640px) {
+  /* tips block */
+
+  
 }
