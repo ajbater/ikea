@@ -196,3 +196,7 @@ p {
   left: 0;
   visibility: hidden;
 }
+
+.second-frame.blink {
+  visibility: visible;
+}
