@@ -6,11 +6,11 @@ $(function() {
 });
 
 $(function(){
-    $("#carousel-container .slide:gt(0)").hide();
+    $("#slide-container .slide:gt(0)").hide();
     $("#next-arrow").click(function(){
-      $("#carousel-container > :first-child").slideUp(300, "swing")
+      $("#slide-container > :first-child").slideUp(300, "swing")
          .next(".slide").slideDown(300, "swing")
          .end()
-         .appendTo("#carousel-container");
+         .appendTo("#slide-container");
        });
 });

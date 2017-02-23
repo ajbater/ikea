@@ -19,4 +19,4 @@ setGridContent('product-grid-items', 4);
 
 // sets content of sleep coach block
 setHeaderContent('tips-heading', 'tips-subheading', 5);
-setSlidesContent('carousel-container', 6);
+setSlidesContent('slide-container', 6);
