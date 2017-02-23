@@ -24,14 +24,12 @@ p {
 #first-heading, #second-heading, #sleep-coach-heading, .carousel-header {
   font-size: 2.8em;
   letter-spacing: 1px;
-  /*font-weight: 450;*/
 }
 
 /*main header block*/
 
-/*.first-header {
-  width: 90%;
-  margin: 100px auto;
+.first-header {
+  margin-top: 70px;
 }
 
 /*youtube block*/
@@ -141,15 +139,32 @@ p {
 #prev-arrow, #next-arrow {
   width: 100%;
   height: 100%;
+  bottom: 0%;
+}
+
+.navigation-button {
+  z-index: 1000;
+  top: 50%;
+  position: absolute;
 }
 
 #next-arrow {
   transform: rotate(180deg);
 }
 
+#prev-arrow {
+}
+
 .next {
   border-bottom-left-radius: 10%;
   border-top-left-radius: 10%;
+  right: 0;
+}
+
+.social {
+  position: absolute;
+  bottom: 4%;
+  left: 42%;
 }
 
 .social-icon {
@@ -163,6 +178,7 @@ p {
 
 .sleep-coach {
   margin-bottom: 100px;
+  position: relative;
 }
 
 .sleep-coach-header {
@@ -177,12 +193,12 @@ p {
 
 #sleep-coach-carousel-container {
   position: relative;
+  height: 1000px;
 }
 
 .slide {
   position: absolute;
   width: 100%;
-  height: 100%;
   margin: auto;
   text-align: center;
   border-bottom: 1px solid #E1E1E1;
