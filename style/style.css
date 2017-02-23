@@ -161,9 +161,9 @@ p {
 
 /*sleep coach block*/
 
-/*#navigation {
-  z-index: 1000;
-}*/
+.sleep-coach {
+  margin-bottom: 100px;
+}
 
 .sleep-coach-header {
   margin: auto;
