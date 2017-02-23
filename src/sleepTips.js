@@ -6,11 +6,11 @@ $(function() {
 });
 
 $(function(){
-    $("#sleep-coach-carousel-container .slide:gt(0)").hide();
+    $("#carousel-container .slide:gt(0)").hide();
     $("#next-arrow").click(function(){
-      $("#sleep-coach-carousel-container > :first-child").fadeOut(500)
-         .next(".slide").fadeIn(500)
+      $("#carousel-container > :first-child").fadeOut(700)
+         .next(".slide").fadeIn(700)
          .end()
-         .appendTo("#sleep-coach-carousel-container");
+         .appendTo("#carousel-container");
        });
 });
