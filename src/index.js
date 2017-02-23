@@ -18,5 +18,6 @@ productHeading.innerHTML = pageContent.blocks[4].heading;
 setGridContent('product-grid-items', 4);
 
 // sets content of sleep coach block
+// showSecondFrame();
 setHeaderContent('sleep-coach-heading', 'sleep-coach-subheading', 5);
 setSlidesContent('sleep-coach-carousel-container', 6);

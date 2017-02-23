@@ -186,3 +186,13 @@ p {
   margin-top: 50px;
   margin-bottom: 70px;
 }
+
+.first-frame {
+  position: relative;
+}
+
+.second-frame {
+  position: absolute;
+  left: 0;
+  visibility: hidden;
+}
