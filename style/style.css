@@ -206,6 +206,8 @@ p {
 #carousel-container {
   position: relative;
   height: 550px;
+  border-bottom: 1px solid #E1E1E1;
+  border-top: 2px solid #E1E1E1;
 }
 
 .slide {
@@ -215,18 +217,17 @@ p {
   width: 100%;
   margin: auto;
   text-align: center;
-  border-bottom: 1px solid #E1E1E1;
-  border-top: 2px solid #E1E1E1;
+}
+
+.sleep-tip-text {
+  margin: auto;
+  margin-bottom: 65px;
+  background-color: white;
+  width: 80%
 }
 
 .slide img {
   width: 100%;
-}
-
-.sleep-tip-text {
-  margin-top: 50px;
-  margin-bottom: 70px;
-  background-color: white;
 }
 
 .first-frame {
