@@ -58,11 +58,10 @@ p {
 
 #play-button {
   position: absolute;
-  top: 43%;
+  top: 44%;
   left: 47%;
   width: 30px;
   height: 30px;
-  opacity: 1;
 }
 
 /* second header block */
@@ -182,7 +181,7 @@ p {
   height: 40px;
 }
 
-/* sleep coach block */
+/* tips carousel block */
 
 .tips {
   width: 100%;
@@ -328,6 +327,15 @@ p {
 }
 
 @media screen and (min-width: 768px) {
+  /* youtube block */
+
+  #play-button {
+    top: 44%;
+    left: 47%;
+    width: 45px;
+    height: 45px;
+  }
+
   /* tips block */
 
   .tips-header {
@@ -379,6 +387,10 @@ p {
 
   .tips {
     margin-top: 100px;
+  }
+
+  .social {
+    left: 44%;
   }
 
   .navigation-button {
