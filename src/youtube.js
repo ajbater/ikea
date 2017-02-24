@@ -1,5 +1,3 @@
-var playButton = document.getElementById("play-button");
-var videoPoster = document.getElementById("video-poster");
 var youtubeVideo = document.getElementById("youtube-video");
 
 setYoutubeContent = function() {
@@ -8,7 +6,11 @@ setYoutubeContent = function() {
   videoPoster.innerHTML = '<img src="./images/' + pageContent.blocks[1].image + '">'
 }
 
-playButton.addEventListener("click", function(){
-  playButton.style.opacity = "0";
-  videoPoster.style.visibility = "hidden";
+$(function(){
+	var playButton = $("#play-button");
+  var videoPoster = $("#video-poster");
+	playButton.click(function(){
+    playButton.fadeOut(500);
+    videoPoster.fadeOut(500);
+  });
 });
