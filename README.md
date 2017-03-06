@@ -10,4 +10,4 @@ Clone this repository and drag `index.html` into the browser.
 
 ### I'd like to improve
 
-The responsiveness of the 'tips' carousel isn't as slick as it could be, I'd be really interested to know how this could be improved upon. I was also not able to successfully implement the 'previous' button, I'd like to figure out how to get this working.
+The responsiveness of the 'tips' carousel isn't as slick as it could be, I'd be really interested to know how this could be improved upon.
